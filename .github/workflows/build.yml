@@ -1,9 +1,17 @@
-name: 'Build Mac'
+name: 'Build-Mac'
 on:
   - workflow_dispatch
 jobs:
-  test:
+  build:
     uses: ./.github/workflows/main.yml
     with:
       mode: '["build"]'
-      kmonad_os: '["MAC"]'
+      alphas: '["default"]'
+      extra: '["colemakdh"]'
+      nav: '["vi"]'
+      clipboard: '["mac"]'
+      layers: '["default"]'
+      mapping: '["default"]'
+      kmonad_os: '["mac"]'
+      rules: '["default"]'
+      custom_config: '["default"]'

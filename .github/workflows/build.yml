@@ -7,8 +7,6 @@ jobs:
     with:
       mode: '["build"]'
       alphas: '["default"]'
-      extra: '["colemakdh"]'
-      nav: '["vi"]'
       clipboard: '["mac"]'
       layers: '["default"]'
       mapping: '["default"]'
